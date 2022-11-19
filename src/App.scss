@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+small,
+a,
+p {
+  font-family: "Poppins";
+  font-style: normal;
+}
+body {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  gap: 15px;
+  .navbar-brand {
+    color: #fff;
+    width: 40%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32.4359px;
+    line-height: 170%;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .nav-item {
+    padding: 0 10px;
+    line-height: 170%;
+    letter-spacing: 0.005em;
+    a {
+      color: #6d7580 !important;
+
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  .nav_icon {
+    border: 1px solid #d895ff;
+    border-radius: 6px;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+// Hero section Start
+.hero_bg {
+  background-image: url("./Media/images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+
+  .container {
+    padding: 160px 18px 0;
+
+    .hero_right {
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #fff;
+      }
+      ul {
+        li {
+          margin: 0 8px;
+          list-style: none;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 170%;
+          color: #ebeef2;
+
+          span {
+            color: #d895ff;
+          }
+        }
+        .list_icon {
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+// Hero section End
+
+// Crypto Section Start
+.crypto_bg {
+  .container {
+    padding: 190px 18px;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 18px;
+      background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -text-fill-color: transparent;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: #160f1a;
+    }
+    .botm_txt {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 170%;
+      color: #2c3a4b;
+    }
+    .crypto_table {
+      h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 34px;
+        span {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 170%;
+          color: #545d69;
+        }
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 130%;
+      }
+      h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;
+        color: #ff6262;
+      }
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 170%;
+      }
+      button {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        background: #160f1a;
+        border-radius: 6px;
+        color: #fff;
+      }
+    }
+    button {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 170%;
+      color: #ffffff;
+      background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+      border-radius: 8px;
+      border: none;
+      padding: 16px 32px;
+    }
+  }
+}
+// Crypto Section End
+
+// Card section Start
+.card_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("./Media/images/card_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 120vh;
+  .container {
+    padding: 160px 18px 0;
+    height: 100vh;
+    .card_txt {
+      small {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #ffffff;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: #ffffff;
+      }
+      button {
+        padding: 16px 32px;
+        background: rgba(33, 30, 31, 0.5);
+        /* White */
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 170%;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #fff;
+      }
+    }
+  }
+}
+// Card section End
+
+// Deposti Section start
+.deposit_bg {
+  .container {
+    padding: 160px 18px 0;
+
+    .deposit_left {
+      margin-top: 120px;
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -text-fill-color: transparent;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #160f1a;
+      }
+      small {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: #2c3a4b;
+      }
+      button {
+        font-weight: 600;
+        font-size: 18px;
+        // line-height: 170%;
+        color: #ffffff;
+        background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+        border-radius: 8px;
+        border: none;
+        padding: 16px 32px;
+      }
+    }
+    .botm_left {
+      small {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 170%;
+        color: #2c3a4b;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 130%;
+        color: #6d7580;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: -0.01em;
+        margin: 0;
+      }
+    }
+  }
+}
+// Deposti Section end
+
+// Trade Section start
+.trade_bg {
+  background: #160f1a;
+  height: 120vh;
+  margin-top: -80px;
+  z-index: 5 !important;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  // top: 3460px;
+  .container {
+    padding: 160px 18px 0;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 18px;
+      background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    h3{
+        font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #fff;
+    }
+  }
+}
+// Trade Section end
