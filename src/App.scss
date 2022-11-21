@@ -169,6 +169,7 @@ body {
         background: #160f1a;
         border-radius: 6px;
         color: #fff;
+        padding: 10px 20px;
       }
     }
     button {
@@ -503,15 +504,89 @@ body {
       display: none;
     }
     .hero_right {
+      width: 24rem !important;
       h2 {
         font-size: 44px !important;
         line-height: 50px !important;
-        width: 24rem !important;
       }
-      li{
-        // font-size: 16px !important;
-        width: 24rem !important;
+      li {
+        font-size: 16px !important;
       }
     }
+  }
+  .crypto_bg {
+    .container {
+      padding: 60px 18px;
+
+      .crypto_txt {
+        .tbl_img {
+          text-align: center !important;
+          margin: 5px 0;
+        }
+        h2,
+        h1,
+        h4,
+        h3 {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+  .deposit_bg {
+    .container {
+      padding: 40px 20px;
+      .deposit_left{
+
+          h2 {
+            font-size: 40px;
+            line-height: 45px;
+          }
+          small{
+            line-height: 145%;
+          }
+          button{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            .arrow{
+                margin-left: 8px !important;
+            }
+          }
+      }
+      .deposit_img{
+        text-align: center;
+      }
+    }
+  }
+  .trade_bg{
+    margin-top: -130px;
+    .container {
+        padding: 70px 18px 0;
+    }
+  }
+  .section_bg{
+    .container{
+        margin-top: 34rem;
+        margin-left: 0%;
+
+        .section_grid{
+            text-align: center;
+        }
+    }
+  }
+  .simple_bg{
+    .container{
+        padding: 130px 18px;
+    }
+  }
+  .vision_bg{
+
+      .bold_txt{
+        text-align: center !important;
+      }
+  }
+  .footer{
+    margin-top: 40rem;
+    padding: 60px 18px 30px;
   }
 }

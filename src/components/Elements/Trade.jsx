@@ -11,13 +11,13 @@ const Trade = () => {
             Trade with confidence on the world’s fastest and most secure crypto
             exchange
           </h3>
-          <div className="text-center trade_botm d-flex justify-content-center mt-5">
-            <div className="d-flex w-25 ">
+          <div className="text-center trade_botm d-flex flex-wrap justify-content-center mt-5">
+            <div className="d-flex mb-3 ">
               <img
                 src="assets/images/monitor.png"
-                className="img-fluid"
+                className=""
                 alt=""/>
-              <div className="d-flex flex-column ms-3">
+              <div className="d-flex flex-column w-100 ms-3 me-3">
                 <span className="text-start">DESKTOP</span>
                 <a href="#">Go to Exchange <FiArrowUpRight/></a>
               </div>

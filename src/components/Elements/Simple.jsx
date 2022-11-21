@@ -9,7 +9,7 @@ const Simple = () => {
             <div className="col-md-6 col-12 d-flex justify-content-center">
               <img src="assets/images/Group.png" alt="" />
             </div>
-            <div className="col-md-6 col-12 ">
+            <div className="col-md-6 col-12  mt-4">
              <div className="simple_right">
              <p>CRYPTO.COM DEFI</p>
               <h2 className="mt-2">DeFi Made Simple</h2>

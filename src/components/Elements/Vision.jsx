@@ -12,11 +12,11 @@ const Vision = () => {
             </h2>
           </div>
           <div className="row mt-5">
-            <div className="col-md-6 col-12 px-5 boder text-end">
+            <div className="col-md-6 col-12 px-5 boder bold_txt text-end">
               <h4>Founded in</h4>
               <h3>2022</h3>
             </div>
-            <div className="col-md-6 col-12 px-5 text-start">
+            <div className="col-md-6 col-12 px-5 bold_txt text-start">
               <h4>Users</h4>
               <h3>70M</h3>
             </div>

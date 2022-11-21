@@ -21,7 +21,7 @@ const Hero = () => {
                   <li>Grow your portfolio by <span>receiving rewards up to 14.5%</span> on your crypto assets</li>
                 </ul>
                 <div className="mt-5">
-                    <div className="d-flex justify-content-between align-items-center w-75" >
+                    <div className="d-flex justify-content-between align-items-center flex-wrap w-75" >
                         <img src="assets/images/app.png" alt="" />
                         <img src="assets/images/google.png" alt="" />
                         <img src="assets/images/Rectangle.png" alt="" />

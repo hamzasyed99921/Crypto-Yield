@@ -15,9 +15,9 @@ const Deposit = () => {
                 earn rewards
               </h2>
               <small >Choose from 40+ cryptocurrencies and stablecoins.</small>
-              <button className="mt-4">Calculate Rewards  <AiOutlineArrowRight className="ms-5"/></button>
+              <button className="mt-4">Calculate Rewards  <AiOutlineArrowRight className="arrow ms-5"/></button>
               </div>
-              <div className="row mt-5">
+              <div className="row mt-5 mb-4">
               <div className="col-md-6 botm_left">
                 <small>Up to</small>
                 <h2>14.5%</h2>
@@ -30,7 +30,7 @@ const Deposit = () => {
               </div>
               </div>
             </div>
-            <div className="col-md-4 col-12  ">
+            <div className="col-md-4 col-12 deposit_img ">
                 <img src="assets/images/Group.png" alt="" />
             </div>
           </div>
