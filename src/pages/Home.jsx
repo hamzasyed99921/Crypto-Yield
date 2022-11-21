@@ -3,7 +3,10 @@ import Card from '../components/Elements/Card'
 import Crypto from '../components/Elements/Crypto'
 import Deposit from '../components/Elements/Deposit'
 import Hero from '../components/Elements/Hero'
+import Sections from '../components/Elements/Sections'
+import Simple from '../components/Elements/Simple'
 import Trade from '../components/Elements/Trade'
+import Vision from '../components/Elements/Vision'
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
       <Card/>
       <Deposit/>
       <Trade/>
+      <Sections/> 
+      <Simple/>
+      <Vision/>
     </>
   )
 }

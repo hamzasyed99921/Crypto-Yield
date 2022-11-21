@@ -298,9 +298,9 @@ body {
 // Trade Section start
 .trade_bg {
   background: #160f1a;
-  height: 120vh;
+  height: 713px;
   margin-top: -80px;
-  z-index: 5 !important;
+  //   z-index: 5 !important;
   position: absolute;
   left: 0px;
   right: 0px;
@@ -315,14 +315,203 @@ body {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      text-fill-color: transparent;
+      -text-fill-color: transparent;
     }
-    h3{
+    h3 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: #fff;
+    }
+    .trade_botm {
+      span {
         font-weight: 700;
-font-size: 48px;
-line-height: 56px;
-color: #fff;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: #0063f7;
+      }
     }
   }
 }
 // Trade Section end
+
+// Section Start
+.section_bg {
+  .container {
+    margin-top: 25rem;
+    margin-left: 8rem;
+    position: relative;
+    // z-index: 6 !important;
+    img {
+      width: 80%;
+    }
+    .section_grid {
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        color: #160f1a;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #2c3a4b;
+      }
+    }
+  }
+}
+// Section End
+
+// Simple Section Start
+.simple_bg {
+  .container {
+    padding: 160px 18px 0;
+    .simple_right {
+      margin: auto 0 !important;
+      p {
+        margin: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -text-fill-color: transparent;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #160f1a;
+      }
+      h3 {
+        span {
+          color: #0063f7;
+        }
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: #2c3a4b;
+      }
+      button {
+        font-weight: 600;
+        font-size: 18px;
+        // line-height: 170%;
+        color: #ffffff;
+        background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+        border-radius: 8px;
+        border: none;
+        padding: 16px 32px;
+      }
+    }
+  }
+}
+// Simple Section End
+
+// Vision Section Start
+.vision_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("./Media/images/bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: -99px;
+  .container {
+    padding: 160px 18px;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 18px;
+      background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      --text-fill-color: transparent;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: #ffffff;
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 18px;
+      color: #fff;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 130%;
+      color: #ff82d4;
+    }
+    .boder {
+      border-right: 1px solid #6d7580;
+    }
+  }
+}
+// Vision Section End
+
+// Footer Section Start
+.footer {
+  // position: relative;
+  margin-top: 30rem;
+  bottom: 0;
+  padding: 160px 18px 30px;
+
+  .container {
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 170%;
+    }
+    li {
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+        color: #a5abb3;
+        text-decoration: none;
+      }
+    }
+    strong {
+      font-weight: 400;
+      font-size: 14px;
+      color: #545d69;
+      letter-spacing: 0.008em;
+    }
+  }
+}
+// Footer Section End
+
+@media screen and (max-width: 768px) {
+  .hero_bg {
+    .hero_img {
+      display: none;
+    }
+    .hero_right {
+      h2 {
+        font-size: 44px !important;
+        line-height: 50px !important;
+        width: 24rem !important;
+      }
+      li{
+        // font-size: 16px !important;
+        width: 24rem !important;
+      }
+    }
+  }
+}

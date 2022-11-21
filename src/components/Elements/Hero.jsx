@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-12">
-              <img src="assets/images/Group.png" alt="" />
+              <img src="assets/images/Group.png" className="hero_img" alt="" />
             </div>
             <div className="col-md-8 col-12 d-flex align-items-center">
               <div className="hero_right ">
