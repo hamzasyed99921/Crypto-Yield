@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../components/Elements/Card'
+import Contact from '../components/Elements/Contact'
 import Crypto from '../components/Elements/Crypto'
 import Deposit from '../components/Elements/Deposit'
 import Hero from '../components/Elements/Hero'
@@ -19,6 +20,7 @@ const Home = () => {
       <Sections/> 
       <Simple/>
       <Vision/>
+      <Contact/>
     </>
   )
 }

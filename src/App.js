@@ -4,11 +4,13 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Base from './components/Layouts/Base';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
   return (
     <div className="App">
+       <ToastContainer />
        <BrowserRouter>
       <Base>
         <Routes>

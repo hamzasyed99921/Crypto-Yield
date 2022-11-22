@@ -465,11 +465,32 @@ body {
   }
 }
 // Vision Section End
-
+// Contact Section Start
+.contact_bg {
+  margin-top: 34rem;
+  .container {
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+    }
+    button{
+        font-weight: 600;
+        font-size: 18px;
+        // line-height: 170%;
+        color: #ffffff;
+        background: linear-gradient(95.02deg, #ff82d4 0%, #1b1378 100%);
+        border-radius: 8px;
+        border: none;
+        padding: 12px 34px;
+    }
+  }
+}
+// Contact Section End
 // Footer Section Start
 .footer {
   // position: relative;
-  margin-top: 30rem;
+  //   margin-top: 30rem;
   bottom: 0;
   padding: 160px 18px 30px;
 
@@ -535,58 +556,59 @@ body {
   .deposit_bg {
     .container {
       padding: 40px 20px;
-      .deposit_left{
-
-          h2 {
-            font-size: 40px;
-            line-height: 45px;
+      .deposit_left {
+        h2 {
+          font-size: 40px;
+          line-height: 45px;
+        }
+        small {
+          line-height: 145%;
+        }
+        button {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          .arrow {
+            margin-left: 8px !important;
           }
-          small{
-            line-height: 145%;
-          }
-          button{
-            display: flex;
-            align-items: center;
-            font-size: 12px;
-            .arrow{
-                margin-left: 8px !important;
-            }
-          }
+        }
       }
-      .deposit_img{
+      .deposit_img {
         text-align: center;
       }
     }
   }
-  .trade_bg{
+  .trade_bg {
     margin-top: -130px;
     .container {
-        padding: 70px 18px 0;
+      padding: 70px 18px 0;
     }
   }
-  .section_bg{
-    .container{
-        margin-top: 34rem;
-        margin-left: 0%;
+  .section_bg {
+    .container {
+      margin-top: 34rem;
+      margin-left: 0%;
 
-        .section_grid{
-            text-align: center;
-        }
-    }
-  }
-  .simple_bg{
-    .container{
-        padding: 130px 18px;
-    }
-  }
-  .vision_bg{
-
-      .bold_txt{
-        text-align: center !important;
+      .section_grid {
+        text-align: center;
       }
+    }
   }
-  .footer{
-    margin-top: 40rem;
+  .simple_bg {
+    .container {
+      padding: 130px 18px;
+    }
+  }
+  .vision_bg {
+    .bold_txt {
+      text-align: center !important;
+    }
+  }
+  .contact_bg {
+    margin-top: 44rem;
+  }
+  .footer {
+    // margin-top: 40rem;
     padding: 60px 18px 30px;
   }
 }
